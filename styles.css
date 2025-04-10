@@ -1,0 +1,56 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    text-align: left; /* Alinha o texto à esquerda  lembrar disso*/
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro entendi agora */
+    justify-content:space-around;  /* Espaço entre o texto e a imagem */
+}
+
+/* .text {
+    flex: 1;
+} */
+
+.image {
+    margin-left: 50px; /* Espaço entre o texto e a imagem p p tambem faz isso */
+    width: 500px;
+   
+}
+
+.image img {
+    max-width: 700%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto;
+    margin-top: 10rem;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 150px; /* Aumenta a margem superior */
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 10px 0 5px 0;
+    margin-top: 50px; /* Aumenta a margem superior */
+}
+
+.subtitle {
+    font-size: 24px;
+    margin: 5px 0 10px 0;
+    margin-top: 50px; /* Aumenta a margem superior */
+}
+
+.hashtag {
+    font-size: 20px;
+    background-color:#6a0dad; /* Cor roxa */
+    padding: 10px 20px };
